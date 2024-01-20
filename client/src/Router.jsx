@@ -26,7 +26,6 @@ function Router() {
         <Route path="/admin/edit/personnage/:id" element={<EditCharacter />} />
         <Route path="*" element={<Error_404 />} />
     </Routes>
-
   )
 }
 
