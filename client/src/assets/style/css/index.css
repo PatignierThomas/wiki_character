@@ -1,0 +1,211 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  background-color: #969696;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* mobile first */
+header {
+  margin: 1rem;
+  padding: 1rem;
+}
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #565756;
+  width: 100%;
+}
+header nav ul li {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #969696;
+  padding: 1rem;
+}
+header nav ul li a, header nav ul li button {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  border: none;
+}
+header nav ul li a:hover, header nav ul li button:hover {
+  color: #2f43fd;
+}
+
+main h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+main h2 {
+  font-size: 2.4rem;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+main p.error {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  color: red;
+}
+main .card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 200px;
+  margin: 2rem;
+  background-color: #565756;
+}
+main .card img {
+  width: 20%;
+  object-fit: cover;
+}
+main .card .content {
+  width: 80%;
+}
+main .card .content h3 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 1rem;
+}
+main .card .content p {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0 1rem 2rem 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+main .card .content a {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #2f43fd;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+main .card .content a:hover {
+  background-color: #fff;
+  color: #2f43fd;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #565756;
+}
+main form label {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+}
+main form input, main form textarea {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+}
+main form button {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #2f43fd;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+main form button:hover {
+  background-color: #fff;
+  color: #2f43fd;
+}
+main form a {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  background-color: #2f43fd;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+main form a:hover {
+  background-color: #fff;
+  color: #2f43fd;
+}
+main .data-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #565756;
+}
+main .data-list label {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+}
+main .data-list input, main .data-list textarea {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+}
+main .data-list button, main .data-list a {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  background-color: #2f43fd;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+main .data-list button:hover, main .data-list a:hover {
+  background-color: #fff;
+  color: #2f43fd;
+}
+
+footer {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #565756;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  border: none;
+}
+footer a:hover {
+  color: #2f43fd;
+}
+
+/*# sourceMappingURL=index.css.map */
