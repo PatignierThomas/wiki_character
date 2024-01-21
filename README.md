@@ -38,6 +38,10 @@ npm install
 
 ```
 
+## SQL 
+
+Pour installer la database, importer le fichier `wiki-list.sql` dans phpMyAdmin
+
 ## Démarer le projet 
 
 Dans les dossiers client ET api simulatanement
