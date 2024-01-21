@@ -51,6 +51,9 @@ export const getRecentCharacters = async (req, res) => {
         FROM characters 
         JOIN picture 
         ON characters.id = picture.character_id 
+        JOIN article
+        ON characters.id = article.character_id
+        WHERE article.isValidated = 1
         ORDER BY characters.id DESC 
         LIMIT 3
         `;
